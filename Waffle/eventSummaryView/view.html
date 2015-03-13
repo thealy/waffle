@@ -1,0 +1,32 @@
+<div data-role="view" data-title="EventSummary" data-layout="main" data-model="app.models.eventSummaryView">
+    <div id="eventSummaryViewForm" class="form-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li>
+                    <label>Senior Manager
+                        <input data-bind="value: eventSummaryViewForm.model.seniorManager" type="number">
+                    </label>
+                </li>
+                <li>
+                    <label>Event Name
+                        <input data-bind="value: eventSummaryViewForm.model.eventName" placeholder="Just another meeting" type="text">
+                    </label>
+                </li>
+                <li>
+                    <label>Middle Manager
+                        <input data-bind="value: eventSummaryViewForm.model.middleManager" type="number">
+                    </label>
+                </li>
+            </ul>
+
+            <div class="button-group">
+
+                <a class="button button-block" data-role="button" data-bind="events: { click: eventSummaryViewForm.cancel }">Cancel</a>
+
+
+                <a class="button button-block button-submit" data-role="button" data-bind="events: { click: eventSummaryViewForm.submit }">Confirm</a>
+
+            </div>
+        </form>
+    </div>
+</div>

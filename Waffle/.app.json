@@ -1,6 +1,56 @@
 {
   "type": "kendo-ui-mobile",
-  "isNew": true,
+  "name": "Kendo UI Mobile App",
+  "navigation": "tabstrip",
+  "views": [
+    {
+      "type": "view",
+      "name": "home",
+      "title": "Home",
+      "addToNavigation": true,
+      "icon": "\\E0AF",
+      "components": []
+    },
+    {
+      "type": "view",
+      "name": "eventSummaryView",
+      "title": "EventSummary",
+      "addToNavigation": true,
+      "icon": "\\E0E4",
+      "components": [
+        {
+          "type": "form",
+          "name": "eventSummaryViewForm",
+          "submitButton": "Confirm",
+          "cancelButton": "Cancel",
+          "components": [
+            {
+              "type": "field",
+              "name": "seniorManager",
+              "title": "Senior Manager",
+              "inputType": "number"
+            },
+            {
+              "type": "field",
+              "name": "eventName",
+              "title": "Event Name",
+              "inputType": "text",
+              "placeholder": "Just another meeting"
+            },
+            {
+              "type": "field",
+              "name": "middleManager",
+              "title": "Middle Manager",
+              "inputType": "number"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "view": "home",
+  "skin": "flat",
+  "transition": "slide",
   "dataProviders": [
     {
       "type": "dataProvider",
