@@ -1,0 +1,40 @@
+{
+  "ProjectName": "Waffle",
+  "ProjectGuid": "3cb739c3-cdb1-419e-903e-55be9b126f71",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.Waffle",
+  "DisplayName": "Waffle",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{e503b264-db67-4c26-8f38-a1d40578b299}",
+  "WP8ProductID": "{bf90d156-a09f-410d-982a-d632aa2e0527}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.Waffle",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
